@@ -1,0 +1,1114 @@
+//-------------------------------------------------------------------//
+//
+//	Microsoft Agent Character Description
+//
+//	Character Version 2.1
+//	Copyright (c) 1996-98, Microsoft Corporation
+//
+//-------------------------------------------------------------------//
+
+DefineCharacter
+
+	DefineInfo 0x0009
+		Name = "PG123Entertainment"
+	EndInfo
+
+	GUID = {EF41B286-CE88-4046-82E4-9E56E106BA69}
+	Width = 437
+	Height = 353
+	Transparency = 254
+	DefaultFrameDuration = 10
+	Style = AXS_VOICE_TTS | AXS_BALLOON_ROUNDRECT
+	TTSEngineID = {E0725551-286F-11D0-8E73-00A0C9083363}
+	TTSModeID = {C77C5160-2867-11D0-847B-444553540000}
+	TTSPitch = 140
+	TTSLangID = 0x0409
+	TTSLangDialect = "US English"
+	TTSGender = 2
+	TTSAge = 30
+	TTSStyle = "Clear low-accented North American English native"
+	ColorTable = "C:\Users\36633\Pictures\PG123Entertainment\MoveDown.bmp"
+
+EndCharacter
+
+//-------------------------------------------------------------------//
+
+DefineBalloon
+	NumLines = 2
+	CharsPerLine = 32
+	FontName = "nickelodeon"
+	FontHeight = 10
+	ForeColor = 00ffffff
+	BackColor = 00ff0080
+	BorderColor = 00ffffff
+EndBalloon
+
+//-------------------------------------------------------------------//
+
+DefineAnimation "MoveDown"
+
+	TransitionType = 2
+
+	DefineFrame
+		Duration = 10
+		SoundEffect = "C:\Users\36633\Pictures\PG123Entertainment\Y-Pad\Spelling.wav"
+		DefineImage
+			Filename = "C:\Users\36633\Pictures\PG123Entertainment\MoveDown.bmp"
+		EndImage
+	EndFrame
+
+EndAnimation
+
+//-------------------------------------------------------------------//
+
+DefineAnimation "MoveLeft"
+
+	TransitionType = 2
+
+	DefineFrame
+		Duration = 10
+		SoundEffect = "C:\Users\36633\Pictures\PG123Entertainment\All Media\Garden\Windows Hardware Insert.wav"
+		DefineImage
+			Filename = "C:\Users\36633\Pictures\PG123Entertainment\MoveLeft.bmp"
+		EndImage
+	EndFrame
+
+EndAnimation
+
+//-------------------------------------------------------------------//
+
+DefineAnimation "MoveRight"
+
+	TransitionType = 2
+
+	DefineFrame
+		Duration = 10
+		SoundEffect = "C:\Users\36633\Pictures\PG123Entertainment\All Media\Garden\Windows Hardware Remove.wav"
+		DefineImage
+			Filename = "C:\Users\36633\Pictures\PG123Entertainment\MoveRight.bmp"
+		EndImage
+	EndFrame
+
+EndAnimation
+
+//-------------------------------------------------------------------//
+
+DefineAnimation "MoveUp"
+
+	TransitionType = 2
+
+	DefineFrame
+		Duration = 10
+		SoundEffect = "C:\Users\36633\Pictures\PG123Entertainment\All Media\Garden\Windows Hardware Fail.wav"
+		DefineImage
+			Filename = "C:\Users\36633\Pictures\PG123Entertainment\MoveUp.bmp"
+		EndImage
+	EndFrame
+
+EndAnimation
+
+//-------------------------------------------------------------------//
+
+DefineAnimation "Congratulate_2"
+
+	TransitionType = 2
+
+	DefineFrame
+		Duration = 10
+		SoundEffect = "C:\Users\36633\Pictures\PG123Entertainment\Y-Pad\Spelling.wav"
+		DefineImage
+			Filename = "C:\Users\36633\Pictures\PG123Entertainment\Congratulate_2.bmp"
+		EndImage
+	EndFrame
+
+EndAnimation
+
+//-------------------------------------------------------------------//
+
+DefineAnimation "SuperGetAttention"
+
+	TransitionType = 2
+
+	DefineFrame
+		Duration = 10
+		SoundEffect = "C:\Users\36633\Pictures\PG123Entertainment\All Media\Afternoon\Windows Critical Stop.wav"
+		DefineImage
+			Filename = "C:\Users\36633\Pictures\PG123Entertainment\SuperGetAttention.bmp"
+		EndImage
+	EndFrame
+
+EndAnimation
+
+//-------------------------------------------------------------------//
+
+DefineAnimation "VeryGetAttention"
+
+	TransitionType = 2
+
+	DefineFrame
+		Duration = 10
+		SoundEffect = "C:\Users\36633\Pictures\PG123Entertainment\Y-Pad\Letters.wav"
+		DefineImage
+			Filename = "C:\Users\36633\Pictures\PG123Entertainment\VeryGetAttention.bmp"
+		EndImage
+	EndFrame
+
+EndAnimation
+
+//-------------------------------------------------------------------//
+
+DefineAnimation "MoveDownReturn"
+
+	Return = "MoveDown"
+
+	DefineFrame
+		Duration = 10
+		DefineImage
+			Filename = "C:\Users\36633\Pictures\PG123Entertainment\Restpose.bmp"
+		EndImage
+	EndFrame
+
+EndAnimation
+
+//-------------------------------------------------------------------//
+
+DefineAnimation "ReadingMistakily"
+
+	TransitionType = 2
+
+	DefineFrame
+		Duration = 10
+		SoundEffect = "C:\Users\36633\Pictures\PG123Entertainment\Y-Pad\Letters.wav"
+		DefineImage
+			Filename = "C:\Users\36633\Pictures\PG123Entertainment\ReadingMistakily.bmp"
+		EndImage
+	EndFrame
+
+EndAnimation
+
+//-------------------------------------------------------------------//
+
+DefineAnimation "Read"
+
+	TransitionType = 2
+
+	DefineFrame
+		Duration = 10
+		SoundEffect = "C:\Users\36633\Pictures\PG123Entertainment\Y-Pad\Letters.wav"
+		DefineImage
+			Filename = "C:\Users\36633\Pictures\PG123Entertainment\Read.bmp"
+		EndImage
+	EndFrame
+
+EndAnimation
+
+//-------------------------------------------------------------------//
+
+DefineAnimation "Angry"
+
+	TransitionType = 2
+
+	DefineFrame
+		Duration = 10
+		SoundEffect = "C:\Users\36633\Pictures\PG123Entertainment\All Media\Windows 8\Windows Foreground.wav"
+		DefineImage
+			Filename = "C:\Users\36633\Pictures\PG123Entertainment\Angry.bmp"
+		EndImage
+	EndFrame
+
+EndAnimation
+
+//-------------------------------------------------------------------//
+
+DefineAnimation "MoveLeftReturn"
+
+	Return = "MoveLeft"
+
+	DefineFrame
+		Duration = 10
+		DefineImage
+			Filename = "C:\Users\36633\Pictures\PG123Entertainment\Restpose.bmp"
+		EndImage
+	EndFrame
+
+EndAnimation
+
+//-------------------------------------------------------------------//
+
+DefineAnimation "MoveRightReturn"
+
+	Return = "MoveRight"
+
+	DefineFrame
+		Duration = 10
+		DefineImage
+			Filename = "C:\Users\36633\Pictures\PG123Entertainment\Restpose.bmp"
+		EndImage
+	EndFrame
+
+EndAnimation
+
+//-------------------------------------------------------------------//
+
+DefineAnimation "MoveUpReturn"
+
+	Return = "MoveUp"
+
+	DefineFrame
+		Duration = 10
+		DefineImage
+			Filename = "C:\Users\36633\Pictures\PG123Entertainment\Restpose.bmp"
+		EndImage
+	EndFrame
+
+EndAnimation
+
+//-------------------------------------------------------------------//
+
+DefineAnimation "ReallyCongratulate"
+
+	TransitionType = 2
+
+	DefineFrame
+		Duration = 10
+		SoundEffect = "C:\Users\36633\Pictures\PG123Entertainment\All Media\Vox Proxy\fanfare.wav"
+		DefineImage
+			Filename = "C:\Users\36633\Pictures\PG123Entertainment\ReallyCongratulate.bmp"
+		EndImage
+	EndFrame
+
+EndAnimation
+
+//-------------------------------------------------------------------//
+
+DefineAnimation "Show"
+
+	TransitionType = 2
+
+	DefineFrame
+		Duration = 10
+		SoundEffect = "C:\Users\36633\Pictures\PG123Entertainment\RestFiles\MKT-13_Ident.wav"
+		DefineImage
+			Filename = "C:\Users\36633\Pictures\PG123Entertainment\Restpose.bmp"
+		EndImage
+	EndFrame
+
+EndAnimation
+
+//-------------------------------------------------------------------//
+
+DefineAnimation "Hide"
+
+	TransitionType = 2
+
+	DefineFrame
+		Duration = 10
+		SoundEffect = "C:\Users\36633\Pictures\PG123Entertainment\Y-Pad\Words.wav"
+		DefineImage
+			Filename = "C:\Users\36633\Pictures\PG123Entertainment\Restpose.bmp"
+		EndImage
+	EndFrame
+
+EndAnimation
+
+//-------------------------------------------------------------------//
+
+DefineAnimation "100 Slaps"
+
+	TransitionType = 2
+
+	DefineFrame
+		Duration = 5
+		SoundEffect = "C:\Users\36633\Pictures\PK432P\My Sounds\0014.wav"
+		DefineImage
+			Filename = "C:\Users\36633\Pictures\PG123Entertainment\About To Slap.bmp"
+		EndImage
+	EndFrame
+
+	DefineFrame
+		Duration = 5
+		DefineImage
+			Filename = "C:\Users\36633\Pictures\PG123Entertainment\Angry.bmp"
+		EndImage
+	EndFrame
+
+	DefineFrame
+		Duration = 5
+		SoundEffect = "C:\Users\36633\Pictures\PK432P\My Sounds\0014.wav"
+		DefineImage
+			Filename = "C:\Users\36633\Pictures\PG123Entertainment\About To Slap.bmp"
+		EndImage
+	EndFrame
+
+	DefineFrame
+		Duration = 5
+		DefineImage
+			Filename = "C:\Users\36633\Pictures\PG123Entertainment\Angry.bmp"
+		EndImage
+	EndFrame
+
+	DefineFrame
+		Duration = 5
+		SoundEffect = "C:\Users\36633\Pictures\PK432P\My Sounds\0014.wav"
+		DefineImage
+			Filename = "C:\Users\36633\Pictures\PG123Entertainment\About To Slap.bmp"
+		EndImage
+	EndFrame
+
+	DefineFrame
+		Duration = 5
+		DefineImage
+			Filename = "C:\Users\36633\Pictures\PG123Entertainment\Angry.bmp"
+		EndImage
+	EndFrame
+
+	DefineFrame
+		Duration = 5
+		SoundEffect = "C:\Users\36633\Pictures\PK432P\My Sounds\0014.wav"
+		DefineImage
+			Filename = "C:\Users\36633\Pictures\PG123Entertainment\About To Slap.bmp"
+		EndImage
+	EndFrame
+
+	DefineFrame
+		Duration = 5
+		DefineImage
+			Filename = "C:\Users\36633\Pictures\PG123Entertainment\Angry.bmp"
+		EndImage
+	EndFrame
+
+	DefineFrame
+		Duration = 5
+		SoundEffect = "C:\Users\36633\Pictures\PK432P\My Sounds\0014.wav"
+		DefineImage
+			Filename = "C:\Users\36633\Pictures\PG123Entertainment\About To Slap.bmp"
+		EndImage
+	EndFrame
+
+	DefineFrame
+		Duration = 5
+		DefineImage
+			Filename = "C:\Users\36633\Pictures\PG123Entertainment\Angry.bmp"
+		EndImage
+	EndFrame
+
+	DefineFrame
+		Duration = 5
+		SoundEffect = "C:\Users\36633\Pictures\PK432P\My Sounds\0014.wav"
+		DefineImage
+			Filename = "C:\Users\36633\Pictures\PG123Entertainment\About To Slap.bmp"
+		EndImage
+	EndFrame
+
+	DefineFrame
+		Duration = 10
+		DefineImage
+			Filename = "C:\Users\36633\Pictures\PG123Entertainment\Angry.bmp"
+		EndImage
+	EndFrame
+
+EndAnimation
+
+//-------------------------------------------------------------------//
+
+DefineAnimation "Jumpscare"
+
+	TransitionType = 2
+
+	DefineFrame
+		Duration = 10
+		SoundEffect = "C:\Users\36633\Pictures\PG123Entertainment\RestFiles\FNAF_Jumpscare.wav"
+		DefineImage
+			Filename = "C:\Users\36633\Pictures\PG123Entertainment\Jumpscare.bmp"
+		EndImage
+	EndFrame
+
+EndAnimation
+
+//-------------------------------------------------------------------//
+
+DefineAnimation "Numbers"
+
+	TransitionType = 2
+
+	DefineFrame
+		Duration = 10
+		SoundEffect = "C:\Users\36633\Pictures\PG123Entertainment\Y-Pad\Numbers.wav"
+		DefineImage
+			Filename = "C:\Users\36633\Pictures\PG123Entertainment\Numbers.bmp"
+		EndImage
+	EndFrame
+
+EndAnimation
+
+//-------------------------------------------------------------------//
+
+DefineAnimation "Music"
+
+	TransitionType = 2
+
+	DefineFrame
+		Duration = 10
+		SoundEffect = "C:\Users\36633\Pictures\PG123Entertainment\Y-Pad\Music.wav"
+		DefineImage
+			Filename = "C:\Users\36633\Pictures\PG123Entertainment\Music.bmp"
+		EndImage
+	EndFrame
+
+EndAnimation
+
+//-------------------------------------------------------------------//
+
+DefineAnimation "Letters"
+
+	TransitionType = 2
+
+	DefineFrame
+		Duration = 10
+		SoundEffect = "C:\Users\36633\Pictures\PG123Entertainment\Y-Pad\Letters.wav"
+		DefineImage
+			Filename = "C:\Users\36633\Pictures\PG123Entertainment\Letters.bmp"
+		EndImage
+	EndFrame
+
+EndAnimation
+
+//-------------------------------------------------------------------//
+
+DefineAnimation "Wondering/Metting With Mario Star/Idle4"
+
+	TransitionType = 2
+
+	DefineFrame
+		Duration = 10
+		SoundEffect = "C:\Users\36633\Pictures\PG123Entertainment\Y-Pad\Game Complete.wav"
+		DefineImage
+			Filename = "C:\Users\36633\Pictures\PG123Entertainment\Wondering.bmp"
+		EndImage
+	EndFrame
+
+EndAnimation
+
+//-------------------------------------------------------------------//
+
+DefineAnimation "Word"
+
+	TransitionType = 2
+
+	DefineFrame
+		Duration = 10
+		SoundEffect = "C:\Users\36633\Pictures\PG123Entertainment\Y-Pad\Words.wav"
+		DefineImage
+			Filename = "C:\Users\36633\Pictures\PG123Entertainment\Word.bmp"
+		EndImage
+	EndFrame
+
+EndAnimation
+
+//-------------------------------------------------------------------//
+
+DefineAnimation "GetAttention"
+
+	TransitionType = 2
+
+	DefineFrame
+		Duration = 10
+		SoundEffect = "C:\Users\36633\Pictures\PG123Entertainment\Y-Pad\Letters.wav"
+		DefineImage
+			Filename = "C:\Users\36633\Pictures\PG123Entertainment\GetAttention.bmp"
+		EndImage
+	EndFrame
+
+EndAnimation
+
+//-------------------------------------------------------------------//
+
+DefineAnimation "GetAttention_2"
+
+	TransitionType = 2
+
+	DefineFrame
+		Duration = 10
+		SoundEffect = "C:\Windows\MSAGENT\CHARS\webster2 ACS Decompiled\Audio\0003.wav"
+		DefineImage
+			Filename = "C:\Users\36633\Pictures\PG123Entertainment\GetAttention.bmp"
+		EndImage
+	EndFrame
+
+EndAnimation
+
+//-------------------------------------------------------------------//
+
+DefineAnimation "100 Fists"
+
+	TransitionType = 2
+
+	DefineFrame
+		Duration = 10
+		SoundEffect = "C:\Windows\MSAGENT\CHARS\Alex The Tails Lover 2020 V12 With Y-Pad ACS Decompiled\Audio\0057.wav"
+		DefineImage
+			Filename = "C:\Users\36633\Pictures\PG123Entertainment\100 Fists.bmp"
+		EndImage
+	EndFrame
+
+EndAnimation
+
+//-------------------------------------------------------------------//
+
+DefineAnimation "100 FistsReturn"
+
+	TransitionType = 2
+
+	DefineFrame
+		Duration = 10
+		SoundEffect = "C:\Windows\MSAGENT\CHARS\Alex The Tails Lover 2020 V12 With Y-Pad ACS Decompiled\Audio\0058.wav"
+		DefineImage
+			Filename = "C:\Users\36633\Pictures\PG123Entertainment\GetAttention.bmp"
+		EndImage
+	EndFrame
+
+EndAnimation
+
+//-------------------------------------------------------------------//
+
+DefineAnimation "Ora"
+
+	TransitionType = 2
+
+	DefineFrame
+		Duration = 10
+		SoundEffect = "C:\Windows\MSAGENT\CHARS\Alex The Tails Lover 2020 V12 With Y-Pad ACS Decompiled\Audio\0103.wav"
+		DefineImage
+			Filename = "C:\Users\36633\Pictures\PG123Entertainment\100 Fists.bmp"
+		EndImage
+	EndFrame
+
+EndAnimation
+
+//-------------------------------------------------------------------//
+
+DefineAnimation "OraReturn"
+
+	TransitionType = 2
+
+	DefineFrame
+		Duration = 150
+		SoundEffect = "C:\Windows\MSAGENT\CHARS\Alex The Tails Lover 2020 V12 With Y-Pad ACS Decompiled\Audio\0104.wav"
+		DefineImage
+			Filename = "C:\Users\36633\Pictures\PG123Entertainment\100 Fists2.bmp"
+		EndImage
+	EndFrame
+
+	DefineFrame
+		Duration = 10
+		DefineImage
+			Filename = "C:\Users\36633\Pictures\PG123Entertainment\100 Fists.bmp"
+		EndImage
+	EndFrame
+
+EndAnimation
+
+//-------------------------------------------------------------------//
+
+DefineAnimation "Greet"
+
+	TransitionType = 2
+
+	DefineFrame
+		Duration = 10
+		SoundEffect = "C:\Users\36633\Pictures\PG123Entertainment\All Media\Quirky\Windows Notify.wav"
+		DefineImage
+			Filename = "C:\Users\36633\Pictures\PG123Entertainment\Greet.bmp"
+		EndImage
+	EndFrame
+
+EndAnimation
+
+//-------------------------------------------------------------------//
+
+DefineAnimation "Idle1"
+
+	TransitionType = 2
+
+	DefineFrame
+		Duration = 10
+		DefineImage
+			Filename = "C:\Users\36633\Pictures\PG123Entertainment\Idle1.bmp"
+		EndImage
+	EndFrame
+
+EndAnimation
+
+//-------------------------------------------------------------------//
+
+DefineAnimation "Idle2"
+
+	TransitionType = 2
+
+	DefineFrame
+		Duration = 10
+		DefineImage
+			Filename = "C:\Users\36633\Pictures\PG123Entertainment\Idle2.bmp"
+		EndImage
+	EndFrame
+
+EndAnimation
+
+//-------------------------------------------------------------------//
+
+DefineAnimation "Idle3"
+
+	TransitionType = 2
+
+	DefineFrame
+		Duration = 10
+		DefineImage
+			Filename = "C:\Users\36633\Pictures\PG123Entertainment\Idle3.bmp"
+		EndImage
+	EndFrame
+
+EndAnimation
+
+//-------------------------------------------------------------------//
+
+DefineAnimation "OverDriveShoot"
+
+	TransitionType = 2
+
+	DefineFrame
+		Duration = 190
+		SoundEffect = "C:\Users\36633\Pictures\PG123Entertainment\RestFiles\Purpley's OverDriveShoot.wav"
+		DefineImage
+			Filename = "C:\Users\36633\Pictures\PG123Entertainment\OverDriveShoot1.bmp"
+		EndImage
+	EndFrame
+
+	DefineFrame
+		Duration = 10
+		DefineImage
+			Filename = "C:\Users\36633\Pictures\PG123Entertainment\Gun.bmp"
+		EndImage
+	EndFrame
+
+	DefineFrame
+		Duration = 10
+		SoundEffect = "C:\Windows\MSAGENT\CHARS\Alex The Tails Lover 2020 V12 With Y-Pad ACS Decompiled\Audio\0051.wav"
+		DefineImage
+			Filename = "C:\Users\36633\Pictures\PG123Entertainment\OverDriveShoot.bmp"
+		EndImage
+	EndFrame
+
+	DefineFrame
+		Duration = 10
+		DefineImage
+			Filename = "C:\Users\36633\Pictures\PG123Entertainment\Gun.bmp"
+		EndImage
+	EndFrame
+
+EndAnimation
+
+//-------------------------------------------------------------------//
+
+DefineAnimation "DoMagic1"
+
+	TransitionType = 2
+
+	DefineFrame
+		Duration = 10
+		SoundEffect = "C:\Users\36633\Pictures\PG123Entertainment\All Media\Windows Feed Discovered.wav"
+		DefineImage
+			Filename = "C:\Users\36633\Pictures\PG123Entertainment\DoMagic1.bmp"
+		EndImage
+	EndFrame
+
+EndAnimation
+
+//-------------------------------------------------------------------//
+
+DefineAnimation "DoMagic2 - Blays"
+
+	TransitionType = 2
+
+	DefineFrame
+		Duration = 10
+		SoundEffect = "C:\Users\36633\Pictures\PG123Entertainment\All Media\tada.wav"
+		DefineImage
+			Filename = "C:\Users\36633\Pictures\PG123Entertainment\DoMagic2 - Blays.bmp"
+		EndImage
+	EndFrame
+
+EndAnimation
+
+//-------------------------------------------------------------------//
+
+DefineAnimation "DoMagic2 - Bluey"
+
+	TransitionType = 2
+
+	DefineFrame
+		Duration = 10
+		SoundEffect = "C:\Users\36633\Pictures\PG123Entertainment\All Media\tada.wav"
+		DefineImage
+			Filename = "C:\Users\36633\Pictures\PG123Entertainment\DoMagic2 - Bluey.bmp"
+		EndImage
+	EndFrame
+
+EndAnimation
+
+//-------------------------------------------------------------------//
+
+DefineAnimation "DoMagic2 - Bookaloo"
+
+	TransitionType = 2
+
+	DefineFrame
+		Duration = 10
+		SoundEffect = "C:\Users\36633\Pictures\PG123Entertainment\All Media\tada.wav"
+		DefineImage
+			Filename = "C:\Users\36633\Pictures\PG123Entertainment\DoMagic2 - Bookaloo.bmp"
+		EndImage
+	EndFrame
+
+EndAnimation
+
+//-------------------------------------------------------------------//
+
+DefineAnimation "DoMagic2 - Coleman"
+
+	TransitionType = 2
+
+	DefineFrame
+		Duration = 10
+		SoundEffect = "C:\Users\36633\Pictures\PG123Entertainment\All Media\tada.wav"
+		DefineImage
+			Filename = "C:\Users\36633\Pictures\PG123Entertainment\DoMagic2 - Coleman.bmp"
+		EndImage
+	EndFrame
+
+EndAnimation
+
+//-------------------------------------------------------------------//
+
+DefineAnimation "DoMagic2 - Cyany"
+
+	TransitionType = 2
+
+	DefineFrame
+		Duration = 10
+		SoundEffect = "C:\Users\36633\Pictures\PG123Entertainment\All Media\tada.wav"
+		DefineImage
+			Filename = "C:\Users\36633\Pictures\PG123Entertainment\DoMagic2 - Cyany.bmp"
+		EndImage
+	EndFrame
+
+EndAnimation
+
+//-------------------------------------------------------------------//
+
+DefineAnimation "DoMagic2 - Greeney"
+
+	TransitionType = 2
+
+	DefineFrame
+		Duration = 10
+		SoundEffect = "C:\Users\36633\Pictures\PG123Entertainment\All Media\tada.wav"
+		DefineImage
+			Filename = "C:\Users\36633\Pictures\PG123Entertainment\DoMagic2 - Greeney.bmp"
+		EndImage
+	EndFrame
+
+EndAnimation
+
+//-------------------------------------------------------------------//
+
+DefineAnimation "DoMagic2 - Konnor"
+
+	TransitionType = 2
+
+	DefineFrame
+		Duration = 10
+		SoundEffect = "C:\Users\36633\Pictures\PG123Entertainment\All Media\tada.wav"
+		DefineImage
+			Filename = "C:\Users\36633\Pictures\PG123Entertainment\DoMagic2 - Konnor.bmp"
+		EndImage
+	EndFrame
+
+EndAnimation
+
+//-------------------------------------------------------------------//
+
+DefineAnimation "DoMagic2 - Lurpley"
+
+	TransitionType = 2
+
+	DefineFrame
+		Duration = 10
+		SoundEffect = "C:\Users\36633\Pictures\PG123Entertainment\All Media\tada.wav"
+		DefineImage
+			Filename = "C:\Users\36633\Pictures\PG123Entertainment\DoMagic2 - Lurpley.bmp"
+		EndImage
+	EndFrame
+
+EndAnimation
+
+//-------------------------------------------------------------------//
+
+DefineAnimation "Frown"
+
+	TransitionType = 2
+
+	DefineFrame
+		Duration = 10
+		SoundEffect = "C:\Users\36633\Pictures\PG123Entertainment\All Media\Windows Longhorn Reloaded\LHR Hardware Remove.wav"
+		DefineImage
+			Filename = "C:\Users\36633\Pictures\PG123Entertainment\Frown.bmp"
+		EndImage
+	EndFrame
+
+EndAnimation
+
+//-------------------------------------------------------------------//
+
+DefineAnimation "Congratulate"
+
+	TransitionType = 2
+
+	DefineFrame
+		Duration = 10
+		SoundEffect = "C:\Users\36633\Pictures\PG123Entertainment\Y-Pad\Spelling.wav"
+		DefineImage
+			Filename = "C:\Users\36633\Pictures\PG123Entertainment\Congratulate.bmp"
+		EndImage
+	EndFrame
+
+EndAnimation
+
+//-------------------------------------------------------------------//
+
+DefineAnimation "Sad"
+
+	TransitionType = 2
+
+	DefineFrame
+		Duration = 10
+		SoundEffect = "C:\Users\36633\Pictures\PG123Entertainment\All Media\Ubuntu Windows\logout.wav"
+		DefineImage
+			Filename = "C:\Users\36633\Pictures\PG123Entertainment\Sad.bmp"
+		EndImage
+	EndFrame
+
+EndAnimation
+
+//-------------------------------------------------------------------//
+
+DefineAnimation "RestPose"
+
+	TransitionType = 2
+
+	DefineFrame
+		Duration = 10
+		DefineImage
+			Filename = "C:\Users\36633\Pictures\PG123Entertainment\Restpose.bmp"
+		EndImage
+	EndFrame
+
+EndAnimation
+
+//-------------------------------------------------------------------//
+
+DefineAnimation "Surprised"
+
+	TransitionType = 2
+
+	DefineFrame
+		Duration = 10
+		SoundEffect = "C:\Users\36633\Pictures\PG123Entertainment\All Media\Vox Proxy\fanfare.wav"
+		DefineImage
+			Filename = "C:\Users\36633\Pictures\PG123Entertainment\Surprised.bmp"
+		EndImage
+	EndFrame
+
+EndAnimation
+
+//-------------------------------------------------------------------//
+
+DefineAnimation "Shoot"
+
+	TransitionType = 2
+
+	DefineFrame
+		Duration = 10
+		SoundEffect = "C:\Windows\MSAGENT\CHARS\Alex The Tails Lover 2020 V12 With Y-Pad ACS Decompiled\Audio\0002.wav"
+		DefineImage
+			Filename = "C:\Users\36633\Pictures\PG123Entertainment\Shoot.bmp"
+		EndImage
+	EndFrame
+
+	DefineFrame
+		Duration = 10
+		DefineImage
+			Filename = "C:\Users\36633\Pictures\PG123Entertainment\Gun.bmp"
+		EndImage
+	EndFrame
+
+EndAnimation
+
+//-------------------------------------------------------------------//
+
+DefineAnimation "Shocked"
+
+	TransitionType = 2
+
+	DefineFrame
+		Duration = 10
+		SoundEffect = "C:\Users\36633\Downloads\WHAT.wav"
+		DefineImage
+			Filename = "C:\Users\36633\Pictures\PG123Entertainment\Shocked.bmp"
+		EndImage
+	EndFrame
+
+EndAnimation
+
+//-------------------------------------------------------------------//
+
+DefineAnimation "Sign"
+
+	TransitionType = 2
+
+	DefineFrame
+		Duration = 10
+		DefineImage
+			Filename = "C:\Users\36633\Pictures\PG123Entertainment\Sign.bmp"
+		EndImage
+	EndFrame
+
+EndAnimation
+
+//-------------------------------------------------------------------//
+
+DefineAnimation "Uncertain"
+
+	TransitionType = 2
+
+	DefineFrame
+		Duration = 10
+		SoundEffect = "C:\Users\36633\Pictures\PG123Entertainment\All Media\Windows Message Nudge.wav"
+		DefineImage
+			Filename = "C:\Users\36633\Pictures\PG123Entertainment\Uncertain.bmp"
+		EndImage
+	EndFrame
+
+EndAnimation
+
+//-------------------------------------------------------------------//
+
+DefineAnimation "Confused"
+
+	TransitionType = 2
+
+	DefineFrame
+		Duration = 10
+		SoundEffect = "C:\Users\36633\Pictures\PG123Entertainment\All Media\Windows 8\Windows Message Nudge.wav"
+		DefineImage
+			Filename = "C:\Users\36633\Pictures\PG123Entertainment\Confused.bmp"
+		EndImage
+	EndFrame
+
+EndAnimation
+
+//-------------------------------------------------------------------//
+
+DefineAnimation "Gun"
+
+	TransitionType = 2
+
+	DefineFrame
+		Duration = 10
+		SoundEffect = "C:\Users\36633\Pictures\PG123Entertainment\RestFiles\ATTLs_Gun.wav"
+		DefineImage
+			Filename = "C:\Users\36633\Pictures\PG123Entertainment\Gun.bmp"
+		EndImage
+	EndFrame
+
+EndAnimation
+
+//-------------------------------------------------------------------//
+
+DefineAnimation "Pleased"
+
+	TransitionType = 2
+
+	DefineFrame
+		Duration = 10
+		SoundEffect = "C:\Users\36633\Pictures\PG123Entertainment\Y-Pad\Spelling.wav"
+		DefineImage
+			Filename = "C:\Users\36633\Pictures\PG123Entertainment\Pleased.bmp"
+		EndImage
+	EndFrame
+
+EndAnimation
+
+//-------------------------------------------------------------------//
+
+DefineAnimation "Spell"
+
+	TransitionType = 2
+
+	DefineFrame
+		Duration = 10
+		SoundEffect = "C:\Users\36633\Pictures\PG123Entertainment\Y-Pad\Spelling.wav"
+		DefineImage
+			Filename = "C:\Users\36633\Pictures\PG123Entertainment\Spell.bmp"
+		EndImage
+	EndFrame
+
+EndAnimation
+
+//-------------------------------------------------------------------//
+
+DefineState "Showing"
+	Animation = "Show"
+EndState
+
+//-------------------------------------------------------------------//
+
+DefineState "Hiding"
+	Animation = "Hide"
+EndState
+
+//-------------------------------------------------------------------//
+
+DefineState "IdlingLevel1"
+	Animation = "Wondering/Metting With Mario Star/Idle4"
+	Animation = "Idle1"
+	Animation = "Idle2"
+	Animation = "Idle3"
+	Animation = "RestPose"
+EndState
+
+//-------------------------------------------------------------------//
+
+DefineState "MovingLeft"
+	Animation = "MoveLeft"
+EndState
+
+//-------------------------------------------------------------------//
+
+DefineState "MovingRight"
+	Animation = "MoveRight"
+EndState
+
+//-------------------------------------------------------------------//
+
+DefineState "MovingUp"
+	Animation = "MoveUp"
+EndState
+
+//-------------------------------------------------------------------//
+
+DefineState "MovingDown"
+	Animation = "MoveDown"
+EndState
+
+//-------------------------------------------------------------------//
+

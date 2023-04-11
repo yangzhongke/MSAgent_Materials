@@ -1,0 +1,91 @@
+//-------------------------------------------------------------------//
+//
+//	Microsoft Agent Character Description
+//
+//	Character Version 2.1
+//	Copyright (c) 1996-98, Microsoft Corporation
+//
+//-------------------------------------------------------------------//
+
+DefineCharacter
+
+	DefineInfo 0x0009
+		Name = "Firey"
+	EndInfo
+
+	GUID = {78C6105C-B394-4517-A3E8-27ABA3554489}
+	Width = 207
+	Height = 317
+	Transparency = 10
+	DefaultFrameDuration = 10
+	Style = AXS_VOICE_TTS | AXS_BALLOON_ROUNDRECT
+	TTSEngineID = {CA141FD0-AC7F-11D1-97A3-0060082730FF}
+	TTSModeID = {CA141FD0-AC7F-11D1-97A3-006008273001}
+	TTSPitch = 167
+	TTSLangID = 0x0409
+	TTSGender = 2
+	TTSAge = 30
+	TTSStyle = "Business"
+	ColorTable = "C:\Users\Keán\Pictures\Searches\Downloads\bandicam 2020-12-28 19-17-55-6404554565.bmp"
+
+EndCharacter
+
+//-------------------------------------------------------------------//
+
+DefineBalloon
+	NumLines = 2
+	CharsPerLine = 28
+	FontName = "MS Sans Serif"
+	FontHeight = 10
+	ForeColor = 00000000
+	BackColor = 00e1ffff
+	BorderColor = 00646464
+EndBalloon
+
+//-------------------------------------------------------------------//
+
+DefineAnimation "RestPose"
+
+	TransitionType = 2
+
+	DefineFrame
+		Duration = 10
+		DefineMouth
+			Type = OpenWide1
+			Filename = "C:\Users\Keán\Pictures\Searches\Downloads\bandicam 2020-12-28 19-17-55-640.bmp"
+		EndMouth
+		DefineMouth
+			Type = OpenWide2
+			Filename = "C:\Users\Keán\Pictures\Searches\Downloads\bandicam 2020-12-28 19-17-55-6404.bmp"
+		EndMouth
+		DefineMouth
+			Type = OpenWide3
+			Filename = "C:\Users\Keán\Pictures\Searches\Downloads\bandicam 2020-12-28 19-17-55-64045.bmp"
+		EndMouth
+		DefineMouth
+			Type = OpenWide4
+			Filename = "C:\Users\Keán\Pictures\Searches\Downloads\bandicam 2020-12-28 19-17-55-6404554.bmp"
+		EndMouth
+		DefineMouth
+			Type = OpenMedium
+			Filename = "C:\Users\Keán\Pictures\Searches\Downloads\bandicam 2020-12-28 19-17-55-64045545.bmp"
+		EndMouth
+		DefineMouth
+			Type = OpenNarrow
+			Filename = "C:\Users\Keán\Pictures\Searches\Downloads\bandicam 2020-12-28 19-17-55-640455456.bmp"
+		EndMouth
+		DefineImage
+			Filename = "C:\Users\Keán\Pictures\Searches\Downloads\bandicam 2020-12-28 19-17-55-6404554565.bmp"
+		EndImage
+	EndFrame
+
+EndAnimation
+
+//-------------------------------------------------------------------//
+
+DefineState "Speaking"
+	Animation = "RestPose"
+EndState
+
+//-------------------------------------------------------------------//
+

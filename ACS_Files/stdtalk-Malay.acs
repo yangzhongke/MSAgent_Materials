@@ -1,0 +1,241 @@
+sp1: Laporan ringkas, | Perhitungan terbaru saya menunjukkan, | Saya melakukan pengukuran kelajuan saya, dan | Memeriksa rangkaian, | Melihat laporan saya menunjukkan | ## | Pemeriksaan terakhir saya ditunjukkan
+sp2: rata-rata kelajuan internet saya ialah | kelajuan saya rata-rata
+sp3: bait sesaat.
+sp4: Anda tidak memeriksa Berita, Cuaca atau Stok. Tanpa sekurang-kurangnya, saya tidak dapat mengumpulkan data.
+sp5: Data muat turun belum cukup untuk dilaporkan. | Saya belum mengumpulkan data kelajuan yang cukup. | Maaf, ##, saya memerlukan lebih banyak data. Cuba Kemudian.
+OL1: Maaf ##, Anda telah memilih "Sambungan Dial-up", dan nampaknya kami sedang offline.
+st1: Perubahan Menarik | Stok Bergerak! | Ini menarik | Terdapat beberapa pergerakan di sini | \emp\ Ini perlu diperhatikan.
+st2: \emp\ Perubahan Besar | Anda mesti periksa ini | ##, lihat ini! | Wow! Sesuatu sedang berlaku! | Oh saya! | Ini sangat menarik!
+st3: \emp\ Fluktuasi Utama | ##, Lihat ini! | Ini sukar dipercayai! | Pantas! Lihat ini! | ##, anda perlu melihatnya!
+st4: ##, Pasar sekarang ditutup | Saya rasa anda tahu Pasar ditutup | Pada masa ini, Pasar ditutup | Saya melihat bahawa Pasar ditutup
+st5: Inilah laporan terakhir | tetapi inilah laporan terakhir | tetapi saya mempunyai laporan terakhir | Saya akan memberikan laporan terakhir kepada anda
+st6: ##, Tidak ada yang baru untuk dilaporkan | Tidak ada perubahan untuk dilaporkan | Saya tidak ada perkara baru untuk dilaporkan | Saya tidak mempunyai perubahan baru untuk dilaporkan
+st7: Saya akan mendapat laporan stok | Memeriksa Stok, segera kembali. | Saya akan mendapatkan kemas kini stok | Saya sedang mengetahuinya. Stok akan datang
+st8: Saya akan mendapat laporan stok penuh | Saya akan mengambil laporan penuh, segera kembali. | Kemas kini Stok Penuh? Saya ada di dalamnya | Laporan Stok Penuh, akan datang | Ok ##, saya akan memeriksa semua stok anda
+st9: Anda perlu menentukan nombor had atas yang sah atau kosongkan.
+stA: Anda perlu menentukan nombor had bawah yang sah atau kosongkan.
+WX1: Anda perlu menentukan, poskod, atau bandar utama untuk cuaca.
+WX2: ##, salah satu kotak ini mesti dicentang.
+WX3: Saya akan periksa cuaca | Laporan cuaca. Akan datang! | Memeriksa cuaca | OK !, Saya akan memeriksa cuaca
+WX4: Maaf ##, saya tidak dapat laporan cuaca. Saya akan cuba kemudian
+WX5: Buat masa ini, tidak ada laporan untuk pilihan cuaca yang anda pilih.
+NW1: Tidak ada item baru dalam kategori yang dipilih. | Tidak ada tajuk utama untuk kategori yang dipilih. | Tidak ada yang baru dalam kategori yang dipilih.
+NW2: Saya akan memeriksa berita | Saya akan memeriksa sebarang berita | Memeriksa berita | OK, saya akan memeriksa tajuk utama | Laporan Berita? Saya tiada | Memeriksa berita, saya akan segera kembali
+NW3: Maaf ##, saya tidak dapat berita. Saya akan cuba kemudian
+mn1: Nama Saya
+mn2: Apa yang hendak saya panggil anda?
+mn3: Jangan gunakan semua Caps
+as1: Helo ## \pau=300\, saya 
+rm1: Pertama, anda perlu memasukkan mesej untuk peringatan.
+rm2: Faham | Tidak masalah | Jangan risau | OK | Tidak ada masalah ##
+rm3: Saya akan mengingatkan anda | Saya tidak akan lupa | Saya akan ingat | Saya akan memberitahu anda
+rm4: Peringatan:
+rm5: \map="Per-ringatan!"="Peringatan"\
+rm6: ##, sedikit peringatan tentang apa yang anda akan datang. | Ingatlah apa yang anda akan datang tidak lama lagi | Jangan lupa apa yang akan datang
+dt1: Hari ini adalah | Tarikh hari ini adalah | Tarikhnya adalah
+ex1: Adakah anda pasti mahu keluar dari My Cyber ??Buddy?
+ex2: Oh Terima Kasih! | Wah! | Terima kasih! | Baiklah!
+rd1: Tidak ada yang boleh dibaca! | ##, anda mesti memberi saya sesuatu untuk dibaca!
+ic1: ##, sambungan internet terputus | Kami terputus dari internet | ##, saya fikir saya akan menyatakan bahawa sambungan internet terputus
+an1:, sedang dalam talian!
+an1 :, kini dalam talian!
+an1: dihidupkan
+an2: Teka siapa dalam talian !,
+an2: Sekarang \emp\ dalam talian, adalah
+an2: Tebak yang baru datang,
+an2: Hanya datang dalam talian adalah
+an2: Seseorang baru sahaja online, itu
+an2: Saya melihat seseorang datang dalam talian, itu
+an2: Kini ditunjukkan dalam senarai dalam talian adalah
+ol1:, dihidupkan dengan CyberBuddy,
+ol1 :, telah menghidupkan CyberBuddy,
+ol2: tetapi tidak menerima mesej
+ol3: tetapi terkini dalam "Away Mode"
+ol4: dan hanya menerima dari Kenalan
+ol5: Mesej anda tidak diterima oleh
+ol6: tidak menerima mesej.
+ol7: hanya menerima dari Kenalan
+im1: Pertama, anda perlu mengaktifkan Pemesejan Segera.
+im2: Anda perlu menentukan, menghantar Alamat IP, atau UIN.
+im3: Ini bukan alamat IP yang sah, atau UIN.
+im4: Tidak dijumpai
+im5: Tidak ada mesej untuk dihantar!
+im6: Tidak ada apa-apa di sini!
+im7: Medan ini adalah untuk UIN pengguna. Itu mesti nombor mereka.
+im8: Mesej ini mungkin terlalu besar untuk dihantar. | Mesej ini mungkin terlalu besar.
+IM0: Anda perlu mencentang kotak, beberapa rakan dalam senarai untuk dihantar.
+IM1: Tidak ada yang tersedia untuk dihantar.
+IM2: Anda mesti terlebih dahulu, tandakan kotak, rakan untuk disegerakkan.
+IM3: Buat masa ini, tidak ada rakan aktif dalam talian untuk Disegerakkan dengan.
+IM4: Hanya untuk mengingatkan anda, bahawa melainkan jika anda memeriksa beberapa orang di sini, anda tidak akan menerima sebarang mesej.
+em1: ##, Anda perlu memasukkan nama peti surat.
+em2: ## Anda perlu memilih peti mel.
+em3: Menguji sambungan ke pelayan mel untuk:
+em4: Ujian peti mel ini gagal
+em5: Ujian peti mel ini adalah OK.
+em6: Terdapat 1 mesej mel.
+em7: Ada
+em8: mesej mel
+em9: \pau=200\ Di Peti Mel bernama;
+emA: \pau=300\ E-mel \emp\ baru ialah:
+emB: Dari
+emC: Memeriksa Mel:
+emD: E-mel Terakhir Diperiksa
+emE: E-mel Dijumpaie
+eM1: Tidak ada akaun mel untuk diperiksa. Sila tambah akaun.
+eM2: Tidak ada akaun mel dengan kotaknya dicentang dalam senarai ini.
+eM3: Tidak ada yang dapat saya periksa. Maaf.
+eM4: Saya akan pergi memeriksa e-mel! | Saya dalam perjalanan! | OK ##, saya akan memeriksa surat. | Periksa Mel? \emp\Segera
+eM5: OK, saya sudah selesai memeriksa surat. | Saya sudah selesai memeriksa surat. | Selesai
+eM6: Tidak ada E-mel | Tidak ada E-mel yang dijumpai | Maaf ##, tidak ada surat
+eM7: Terdapat 1 mesej mel. | Anda mempunyai 1 E-mel | Saya menjumpai 1 mesej E-mel
+eM8: Saya menjumpai sejumlah
+eM8: Terdapat
+eM9: mesej
+eM9: e-mel
+eM9: mesej e-mel
+eMA: Saya masih memeriksa e-mel, sila tunggu | Saya belum selesai memeriksa surat.
+eMB: Sekiranya ini ditetapkan ke sifar, saya tidak akan memeriksa e-mel sehingga anda memberitahu saya.
+EM1: Mendapatkan Mesej E-mel
+EM2: Saya perlu mengetahui pelayan mel.
+EM3: Saya memerlukan alamat untuk menghantar e-mel | ##, Sila masukkan alamat untuk menghantar e-mel itu.
+EM4: Saya tidak dapat menghantar e-mel. | Saya menghadapi masalah semasa menghantar e-mel.
+EM5: Saya tidak dapat menyambung ke pelayan yang ditentukan
+EM6: Kesalahan yang dilaporkan ialah: \pau=1000\
+dm1: Padamkan Akaun Mel:
+dm2: Padam \emp\ Semua ini? | Buang semuanya?
+dm3: Padamkan ini
+dm4: Padam Semua Mesej Mel yang Dipilih?
+dm5: Di sana mereka pergi! | Naik, Naik, dan pergi! | E-mel! Pergi! | Saya harap mereka tidak penting
+dm6: Padamkan mel ini?
+dm7: Going, Going, <pau=400\ Gone! | <Bye=Mail1000 | Ke bit bucket | Ke Data Dump | \emp\ Jauh dengan anda E-mel
+nc1: Sekiranya anda memeriksanya, saya mungkin menjadi sangat membosankan | Oh tidak! Adakah anda mahu saya menjadi kusam?
+nc2: Saya gembira kerana anda sedar | Saya kembali! Dan anda tidak akan menyesal!
+wp1: Anda perlu memasukkan "alamat laman web" di sini.
+wp2: Saya akan mendapatkan halaman. | Laman Web, akan datang. | | Saya akan mencari halaman. | Saya mencari halaman. | Saya menyemak laman web. |
+wp3: Maaf, ##, saya tidak dapat mendapatkan dokumen itu. | ##, saya tidak dapat mencari dokumen yang anda minta. | Saya tidak dapat menjumpai laman web itu
+gt1: OK, Tetapi saya akan terlepas ucapan apabila anda memulakan program ini.
+ps1: Anda harus \emp\ memposting satu. | Mengapa tidak anda \emp\memposting satu? | Anda harus menambahkan anda! Pergi \emp\ hantar satu. | Saya harap anda, \chr="monotone"\ akan menghantarnya.
+jk1: Maaf ##, saya memeriksa pelayan, tetapi tidak ada Jenaka di sana.
+jk2: Maaf ##, saya tidak dapat mencari Lelucon baru. Saya akan cuba kemudian
+th1: Maaf ##, saya memeriksa pelayan, tetapi tidak ada Pikiran di sana.
+th2: Maaf ##, saya tidak dapat mencari Pemikiran baru sekarang. Saya akan cuba kemudian
+sd1: ##, Ada masalah. \pau=300\ Tiada Suara dirakam.
+sd2: Anda perlu menahan butang, dan tunggu sehingga Lampu Merah menyala sebelum anda dapat merakam. \pau=500\ Lepaskannya setelah selesai.
+sd3: Saya memerlukan alamat IP untuk mengirim Transmisi Suara | Anda perlu menentukan, Alamat IP, untuk dihantar ke.
+sd4: Saya menghadapi masalah saat menghantar Mesej Suara | Maaf ##, saya tidak dapat mengirim Mesej Suara
+pb1: Anda perlu memasukkan Nama atau Nama Panggilan untuk muncul dalam direktori, dan komen seperti minat anda.
+pb2: Anda perlu memasukkan Nama atau Nama Panggilan anda di sini.
+pb3: Anda harus menambahkan beberapa komen seperti minat anda di sini. Komen akan muncul di direktori.
+ms4: Anda tidak Mengaktifkan Pemesejan Segera, jadi anda tidak akan dapat menerima mesej dari CyberBuddys yang lain.
+hlm5: Anda telah diperiksa "Terima Mesej dari Senarai Kenalan Sahaja", sehingga Anda tidak akan menerima mesej dari Cyberbuddys baru.
+hlm6: Anda mungkin ingin memilih pilihan "Pemesejan Segera Diaktifkan".
+EM7: Saya menghadapi masalah untuk mendapatkan surat | Maaf ##, saya menghadapi masalah ketika cuba mendapatkan e-mel itu.
+EM8: Saya menghadapi masalah untuk berhubung
+EM8: Buat masa ini, saya tidak dapat menghubungi
+EM9: OK, saya akan berhenti memeriksa surat | Saya akan berhenti dari cek mel
+ck1: Ya? | Boleh saya bantu? | Apa yang anda mahukan? | "Butang Kanan" akan mendapatkan menu saya | Cuba "Tombol Kanan" | "Tombol Kanan" mempunyai menu saya
+gr1: Selamat Pagi
+gr2: Selamat Petang
+gr3: Selamat Petang
+dow: Ahad && Isnin && Selasa && Rabu && Khamis && Jumaat && Sabtu
+moy: Januari && Februari && Mac && April && Mei && Jun && Julai && Ogos && September && Oktober && November && Disember
+cx1: meminta saya berkata
+cx1: sibuk, dan meminta saya melaporkan
+cx1: diikat, dan meminta saya untuk mengatakan
+cx1: tidak dapat berada di sini, dan meminta saya mengatakannya
+cx1: meminta saya membaca ini:
+Nth: th
+Nrd: rd
+Nst: st
+Nnd: nd
+sfl: Saya sedang menyiapkan dokumen. | Saya sedang menyiapkan dokumen itu, tepat dengan anda. | Suatu ketika, saya menyiapkan dokumen itu
+cb1: Papan keratan kosong | Tidak ada teks di papan keratan
+pz1: ##, saya telah menunggu selama 1 minit | Ingat, saya masih berhenti sejenak | \chr="whisper"\ Ingat, ada banyak lagi yang boleh saya katakan, tetapi saya berhenti sebentar.
+pz2: \chr="whisper"\Saya masih menunggu. | Jangan lupa saya di sini, saya masih dijeda. | \chr="whisper"\Masih menunggu, 2 minit sekarang.
+pz3: Maaf, saya tidak sabar lagi. Klik saya lagi jika anda mahu saya menunggu.
+pz0: Ok, saya akan berhenti sebentar di sini | Baiklah, saya berhenti sejenak | Saya akan berhenti di sini sehingga anda berhenti sebentar.
+ww1: Terdapat perubahan pada
+ww1: Halaman web telah berubah pada
+ww1: Saya melihat perubahan pada
+ww1: Saya melihat perubahan pada
+ww1: ##, Laman web telah berubah pada
+ww1: Saya memeriksa, dan laman web berubah pada
+ww1: Terdapat perubahan halaman web di
+ww2: Inilah perubahannya: | Perubahannya adalah: | Inilah yang saya dapati berubah: | Inilah perubahan yang saya dapati: | Ini adalah perubahan yang saya lihat: | Saya perhatikan perubahan ini: | Inilah yang telah berubah:
+ww3: Saya akan menyemak halaman web | Saya akan mula memeriksa laman web | OK, saya akan menyemak laman web | Saya dalam perjalanan ke web
+ww4: Buat masa ini, saya tidak dapat mendapatkan laman web untuk:
+ww4: Pada masa ini saya tidak dapat mencapai halaman di:
+ww5: Saya tidak menemui perubahan | Saya tidak melihat perubahan | Saya tidak melihat perubahan di laman web
+
+sr0:Pardon?|Say Again|Sorry?|I did not understand|Please Repeat|Sorry,say again|I missed it|Try Again|Excuse me?
+sr1: I'm ready, can I get anything for you?|I'm all set, any orders?|Can I check anything for you? 
+sr2:What web page?|What page please?|Which Web Page?|What page would you like?|##, the desired web page?|Tell me the web page
+sr3:You're Welcome!|You are quite welcome|You're welcome ##|Glad to assist|Glad to help
+sr4:Here we go|Coming up|Loading now|Here it comes|Right away|I'm getting it|I'll find it
+sr5:OK|Alright|No Problem|Right Away|Sure|You bet!|I'm \emp\on it|Of course|Doing it now
+sr6:Did you say|Was that|I heard|You said|Did I hear correctly?|Are you saying|Am I hearing
+sr7:I'll show you a list of my Commands|I'll show the help file with my commands|I'll show you the commands I know
+sr8:You must select a Bookmark file or check the box for Internet Explorer favorites. This is how I know what your web pages are.
+cr1:Equals
+cr2:The Calculator is ready|I'm ready to calculate
+cr3:Closing the Calculator
+cr4:Last Entry Cleared|Cleared Entry
+cr5:Cleared All|All cleared
+cr6:Sorry, You must say individual numbers|You must speak individual digits|You must say the digits
+ph0:The Phone Dialer is ready|Phone Ready|Phone Loaded|Phone Dialer On
+ph1:Now Calling|Incoming Call From|Phone Call from
+ph2:Dialing, Please pick up the phone|I've dialed the number, please pick up the phone
+ph3:You must first enter a phone number
+ph4:Closing the Phone Interface
+ph5:Entry Cleared
+ph6:Hung Up
+ph7:Calling
+ph8:You must enter a phone number first.
+ph9:Unknown Caller|Unidentified Caller
+phA:Please pick up the phone|Please pick up the handset|Please pick up the telephone
+phB:The Line is in use, please try later
+
+lv1: Fungsi ini akan memainkan Mesej Suara Terakhir yang dihantar kepada anda. Nampaknya, belum ada yang menghantar mesej dengan suara mereka kepada anda.
+wx6:Currently, it is|The temperature is|Right now, the temperature is
+wx7:Relative humidity is 
+wx8:\map="Ankin adala"="Angin adalah"\ 
+wx9:\map="Ankin"="adala"\ Chill is 
+wx0:Skies are 
+wxA:degrees
+lk1:Curently, there are no active hyperlinks.
+lk2:Here is a list of current hyperlinks|These links are currently active.
+lk3:I do not have a page to go back to|I have no web page to return to
+lk4:getting|loading|finding|here is
+cg1: OK ##, anda pengguna aktif sekarang. | ##, pengguna aktif sekarang \emp\anda. | ##, anda adalah pengguna aktif. | Pengguna aktif telah diubah menjadi ##.
+FT0:We are receiving a file from 
+FT1:We have an incoming file transfer request.|##, I've received an incoming file request.
+FT2:From:|The request is from:|The sender is:
+FT3:Request accepted, starting transfer.
+FT4:Our request was rejected.  
+FT5:The sender cancelled the request.
+FT6:OK, I've cancelled the request.
+FT8:The transfer was a success|The file was successfully transfered|I'm finished, the file has been transfered
+FT9:I had a problem with the file transfer.|Sorry ##, the file transfer failed.
+FTA: [- Transfer Completed]
+FTB: [- Transfer Cancelled]
+FTC: [- Receiving File:]
+ft0:We are sending a file to 
+ft1:We have received a file send request.
+FE0:I had a problem with the transfer.
+FE1:I could not connect to the other user.|I had a problem connecting to the other user, there may be a firewall.
+FE2:It appears that \emp\ we may be on a router or firewall.
+FE3:The connection to the other computer was lost.
+FD0:The user does not accept file transfers.
+FD1:The user denied our request.
+FD2:The user's computer is busy with a transfer.
+FD3:We are not in the user's contact list.
+FD4:The file we requested, is not in the other computer's Files-to-Send folder.
+vr0: Tidak ada maklumat versi terkini yang tersedia buat masa ini.
+vr1: Anda menggunakan versi CyberBuddy terkini. | Anda mempunyai versi CyberBuddy terkini.
+vr2: Anda mempunyai versi CyberBuddy
+vr3: Versi CyberBuddy terkini ialah
+vr4: Adakah anda ingin mengunjungi Laman Utama CyberBuddy?
+ms1: Adakah anda pasti mahu membuat halaman:
+ms2: Pilih suara untuk digunakan semasa di page
+ms3: Anda sedang dihalaman oleh

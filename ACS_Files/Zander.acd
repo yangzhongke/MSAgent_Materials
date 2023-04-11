@@ -1,0 +1,529 @@
+//-------------------------------------------------------------------//
+//
+//	Microsoft Agent Character Description
+//
+//	Character Version 2.1
+//	Copyright (c) 1996-98, Microsoft Corporation
+//
+//-------------------------------------------------------------------//
+
+DefineCharacter
+
+	DefineInfo 0x0009
+		Name = "Zander"
+		Description = "Hi! My name is Zander Blake!"
+	EndInfo
+
+	GUID = {DB8C02F6-12EB-47A9-B434-050108654019}
+	Width = 137
+	Height = 137
+	Transparency = 249
+	DefaultFrameDuration = 7
+	Style = AXS_VOICE_TTS | AXS_BALLOON_ROUNDRECT
+	TTSEngineID = {CA141FD0-AC7F-11D1-97A3-0060082730FF}
+	TTSModeID = {CA141FD0-AC7F-11D1-97A3-006008273006}
+	TTSPitch = 138
+	TTSLangID = 0x0409
+	TTSGender = 2
+	TTSAge = 30
+	TTSStyle = "Business"
+	ColorTable = "C:\Users\marsa\Pictures\Show.bmp"
+
+EndCharacter
+
+//-------------------------------------------------------------------//
+
+DefineBalloon
+	NumLines = 2
+	CharsPerLine = 28
+	FontName = "Yu Gothic UI Semilight"
+	FontHeight = 12
+	ForeColor = 00000000
+	BackColor = 00d553be
+	BorderColor = 007c01c7
+EndBalloon
+
+//-------------------------------------------------------------------//
+
+DefineAnimation "Show"
+
+	TransitionType = 2
+
+	DefineFrame
+		Duration = 10
+		SoundEffect = "C:\Windows\Media\Quirky\Windows Logon Sound.wav"
+		DefineImage
+			Filename = "C:\Users\marsa\Pictures\Show.bmp"
+		EndImage
+	EndFrame
+
+EndAnimation
+
+//-------------------------------------------------------------------//
+
+DefineAnimation "Read"
+
+	TransitionType = 2
+
+	DefineFrame
+		Duration = 10
+		SoundEffect = "C:\Users\marsa\Documents\recycle.wav"
+		DefineImage
+			Filename = "C:\Users\marsa\Pictures\Read.bmp"
+		EndImage
+	EndFrame
+
+EndAnimation
+
+//-------------------------------------------------------------------//
+
+DefineAnimation "Alert"
+
+	TransitionType = 2
+
+	DefineFrame
+		Duration = 10
+		SoundEffect = "C:\Windows\Media\Landscape\Windows Battery Critical.wav"
+		DefineImage
+			Filename = "C:\Users\marsa\Pictures\Alert.bmp"
+		EndImage
+	EndFrame
+
+EndAnimation
+
+//-------------------------------------------------------------------//
+
+DefineAnimation "Upset"
+
+	TransitionType = 2
+
+	DefineFrame
+		Duration = 10
+		SoundEffect = "C:\Windows\Media\Landscape\Windows Critical Stop.wav"
+		DefineImage
+			Filename = "C:\Users\marsa\Pictures\Angry.bmp"
+		EndImage
+	EndFrame
+
+EndAnimation
+
+//-------------------------------------------------------------------//
+
+DefineAnimation "AngryTeeth"
+
+	TransitionType = 2
+
+	DefineFrame
+		Duration = 10
+		SoundEffect = "C:\Windows\Media\Sonata\Windows Critical Stop.wav"
+		DefineImage
+			Filename = "C:\Users\marsa\Pictures\AngryTeeth.bmp"
+		EndImage
+	EndFrame
+
+EndAnimation
+
+//-------------------------------------------------------------------//
+
+DefineAnimation "GetAttention"
+
+	TransitionType = 2
+
+	DefineFrame
+		Duration = 220
+		SoundEffect = "C:\Windows\Media\Festival\Windows Default.wav"
+		DefineImage
+			Filename = "C:\Users\marsa\Pictures\Alert.bmp"
+		EndImage
+	EndFrame
+
+	DefineFrame
+		Duration = 10
+		DefineImage
+			Filename = "C:\Users\marsa\Pictures\Confused.bmp"
+		EndImage
+	EndFrame
+
+EndAnimation
+
+//-------------------------------------------------------------------//
+
+DefineAnimation "Confused"
+
+	TransitionType = 2
+
+	DefineFrame
+		Duration = 10
+		SoundEffect = "C:\Windows\Media\Characters\Windows Battery Critical.wav"
+		DefineImage
+			Filename = "C:\Users\marsa\Pictures\Confused.bmp"
+		EndImage
+	EndFrame
+
+EndAnimation
+
+//-------------------------------------------------------------------//
+
+DefineAnimation "Shocked"
+
+	TransitionType = 2
+
+	DefineFrame
+		Duration = 10
+		SoundEffect = "C:\Windows\Media\Cityscape\Windows Critical Stop.wav"
+		DefineImage
+			Filename = "C:\Users\marsa\Pictures\Shocked.bmp"
+		EndImage
+	EndFrame
+
+EndAnimation
+
+//-------------------------------------------------------------------//
+
+DefineAnimation "Sleep"
+
+	TransitionType = 2
+
+	DefineFrame
+		Duration = 10
+		SoundEffect = "C:\Users\marsa\Documents\Bonzi ACS Decompiled\Audio\0010.wav"
+		DefineImage
+			Filename = "C:\Users\marsa\Pictures\Sleep.bmp"
+		EndImage
+	EndFrame
+
+EndAnimation
+
+//-------------------------------------------------------------------//
+
+DefineAnimation "Hide"
+
+	TransitionType = 2
+
+	DefineFrame
+		Duration = 10
+		SoundEffect = "C:\Windows\Media\Microsoft Office 2000\WHOOSH.WAV"
+		DefineImage
+			Filename = "C:\Users\marsa\Pictures\Show.bmp"
+		EndImage
+	EndFrame
+
+EndAnimation
+
+//-------------------------------------------------------------------//
+
+DefineAnimation "Move"
+
+	TransitionType = 2
+
+	DefineFrame
+		Duration = 10
+		SoundEffect = "C:\Windows\Media\Microsoft Office 2000\DRIVEBY.WAV"
+		DefineImage
+			Filename = "C:\Users\marsa\Pictures\Show.bmp"
+		EndImage
+	EndFrame
+
+EndAnimation
+
+//-------------------------------------------------------------------//
+
+DefineAnimation "Relax"
+
+	TransitionType = 2
+
+	DefineFrame
+		Duration = 10
+		SoundEffect = "C:\Windows\Media\Characters\Windows Ding.wav"
+		DefineImage
+			Filename = "C:\Users\marsa\Pictures\Relax.bmp"
+		EndImage
+	EndFrame
+
+EndAnimation
+
+//-------------------------------------------------------------------//
+
+DefineAnimation "Explain"
+
+	TransitionType = 2
+
+	DefineFrame
+		Duration = 10
+		SoundEffect = "C:\Windows\Media\Characters\Windows Critical Stop.wav"
+		DefineImage
+			Filename = "C:\Users\marsa\Pictures\Explain.bmp"
+		EndImage
+	EndFrame
+
+EndAnimation
+
+//-------------------------------------------------------------------//
+
+DefineAnimation "RestPose"
+
+	TransitionType = 2
+
+	DefineFrame
+		Duration = 10
+		DefineImage
+			Filename = "C:\Users\marsa\Pictures\Show.bmp"
+		EndImage
+	EndFrame
+
+EndAnimation
+
+//-------------------------------------------------------------------//
+
+DefineAnimation "LookLeft"
+
+	TransitionType = 2
+
+	DefineFrame
+		Duration = 10
+		SoundEffect = "C:\Windows\Media\Cityscape\Windows User Account Control.wav"
+		DefineImage
+			Filename = "C:\Users\marsa\Pictures\LookLeft.bmp"
+		EndImage
+	EndFrame
+
+EndAnimation
+
+//-------------------------------------------------------------------//
+
+DefineAnimation "LookRight"
+
+	TransitionType = 2
+
+	DefineFrame
+		Duration = 10
+		SoundEffect = "C:\Windows\Media\Cityscape\Windows User Account Control.wav"
+		DefineImage
+			Filename = "C:\Users\marsa\Pictures\LookRight.bmp"
+		EndImage
+	EndFrame
+
+EndAnimation
+
+//-------------------------------------------------------------------//
+
+DefineAnimation "Pleased"
+
+	TransitionType = 2
+
+	DefineFrame
+		Duration = 10
+		SoundEffect = "C:\Windows\Media\chimes.wav"
+		DefineImage
+			Filename = "C:\Users\marsa\Pictures\Pleased.bmp"
+		EndImage
+	EndFrame
+
+EndAnimation
+
+//-------------------------------------------------------------------//
+
+DefineAnimation "Backflip"
+
+	TransitionType = 2
+
+	DefineFrame
+		Duration = 7
+		DefineImage
+			Filename = "C:\Users\marsa\Pictures\0163.bmp"
+		EndImage
+	EndFrame
+
+	DefineFrame
+		Duration = 7
+		DefineImage
+			Filename = "C:\Users\marsa\Pictures\0164.bmp"
+		EndImage
+	EndFrame
+
+	DefineFrame
+		Duration = 7
+		DefineImage
+			Filename = "C:\Users\marsa\Pictures\0165.bmp"
+		EndImage
+	EndFrame
+
+	DefineFrame
+		Duration = 7
+		DefineImage
+			Filename = "C:\Users\marsa\Pictures\0166.bmp"
+		EndImage
+	EndFrame
+
+	DefineFrame
+		Duration = 7
+		DefineImage
+			Filename = "C:\Users\marsa\Pictures\0167.bmp"
+		EndImage
+	EndFrame
+
+	DefineFrame
+		Duration = 7
+		DefineImage
+			Filename = "C:\Users\marsa\Pictures\0168.bmp"
+		EndImage
+	EndFrame
+
+	DefineFrame
+		Duration = 7
+		DefineImage
+			Filename = "C:\Users\marsa\Pictures\0169.bmp"
+		EndImage
+	EndFrame
+
+	DefineFrame
+		Duration = 7
+		DefineImage
+			Filename = "C:\Users\marsa\Pictures\0170.bmp"
+		EndImage
+	EndFrame
+
+	DefineFrame
+		Duration = 7
+		DefineImage
+			Filename = "C:\Users\marsa\Pictures\0171.bmp"
+		EndImage
+	EndFrame
+
+	DefineFrame
+		Duration = 7
+		DefineImage
+			Filename = "C:\Users\marsa\Pictures\0172.bmp"
+		EndImage
+	EndFrame
+
+	DefineFrame
+		Duration = 7
+		DefineImage
+			Filename = "C:\Users\marsa\Pictures\0173.bmp"
+		EndImage
+	EndFrame
+
+	DefineFrame
+		Duration = 7
+		DefineImage
+			Filename = "C:\Users\marsa\Pictures\0174.bmp"
+		EndImage
+	EndFrame
+
+	DefineFrame
+		Duration = 7
+		DefineImage
+			Filename = "C:\Users\marsa\Pictures\0175.bmp"
+		EndImage
+	EndFrame
+
+	DefineFrame
+		Duration = 7
+		DefineImage
+			Filename = "C:\Users\marsa\Pictures\0176.bmp"
+		EndImage
+	EndFrame
+
+	DefineFrame
+		Duration = 7
+		DefineImage
+			Filename = "C:\Users\marsa\Pictures\Show.bmp"
+		EndImage
+	EndFrame
+
+EndAnimation
+
+//-------------------------------------------------------------------//
+
+DefineAnimation "Very_Shocked"
+
+	TransitionType = 2
+
+	DefineFrame
+		Duration = 7
+		SoundEffect = "C:\Windows\Media\Microsoft Office 2000\CARBRAKE.WAV"
+		DefineImage
+			Filename = "C:\Users\marsa\Pictures\Shocked2.bmp"
+		EndImage
+	EndFrame
+
+EndAnimation
+
+//-------------------------------------------------------------------//
+
+DefineAnimation "Scared"
+
+	TransitionType = 2
+
+	DefineFrame
+		Duration = 7
+		SoundEffect = "C:\Windows\Media\Microsoft Office 2000\EXPLODE.WAV"
+		DefineImage
+			Filename = "C:\Users\marsa\Pictures\Scared.bmp"
+		EndImage
+	EndFrame
+
+EndAnimation
+
+//-------------------------------------------------------------------//
+
+DefineState "Showing"
+	Animation = "Show"
+EndState
+
+//-------------------------------------------------------------------//
+
+DefineState "Hiding"
+	Animation = "Hide"
+EndState
+
+//-------------------------------------------------------------------//
+
+DefineState "IdlingLevel1"
+	Animation = "Read"
+	Animation = "Relax"
+	Animation = "LookLeft"
+	Animation = "LookRight"
+	Animation = "Backflip"
+EndState
+
+//-------------------------------------------------------------------//
+
+DefineState "IdlingLevel2"
+	Animation = "LookLeft"
+	Animation = "LookRight"
+EndState
+
+//-------------------------------------------------------------------//
+
+DefineState "IdlingLevel3"
+	Animation = "Sleep"
+EndState
+
+//-------------------------------------------------------------------//
+
+DefineState "MovingLeft"
+	Animation = "Move"
+EndState
+
+//-------------------------------------------------------------------//
+
+DefineState "MovingRight"
+	Animation = "Move"
+EndState
+
+//-------------------------------------------------------------------//
+
+DefineState "MovingUp"
+	Animation = "Move"
+EndState
+
+//-------------------------------------------------------------------//
+
+DefineState "MovingDown"
+	Animation = "Move"
+EndState
+
+//-------------------------------------------------------------------//
+
